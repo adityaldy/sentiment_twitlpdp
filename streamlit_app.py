@@ -10,7 +10,7 @@ from sklearn.metrics import classification_report
 import streamlit as st
 
 # Load the dataset
-file_path = 'path_to_your_csv_file.csv'
+file_path = 'tokenized.csv'
 data = pd.read_csv(file_path)
 
 # Simulate sentiment analysis
